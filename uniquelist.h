@@ -2,13 +2,11 @@
 #define UNIQUELIST_H
 
 typedef struct uniquelist {
-  // TODO: Add some fields here
   struct element* head;
 } uniquelist_t;
 
 //elements in uniquelist
 typedef struct element {
-  // TODO: Add some fields here
   int value;
   struct element* next;
 } element_t;
