@@ -4,13 +4,13 @@
 
 /// Initialize a new uniquelist
 void uniquelist_init(uniquelist_t* s) {
-      // TODO: implement me
+     
       s->head = NULL;
       }
 
     /// Destroy a uniquelist
 void uniquelist_destroy(uniquelist_t* s) {
-      // TODO: implement me
+     
       //check if empty list already
     if(s->head == NULL)
         {
@@ -28,7 +28,7 @@ void uniquelist_destroy(uniquelist_t* s) {
 
 /// Add an element to a uniquelist, unless it's already in the uniquelist
 void uniquelist_insert(uniquelist_t* s, int n) {
-  // TODO: implement me
+
   element_t* pointer = s->head;
   //if list is already empty
   if(pointer == NULL)
@@ -60,7 +60,7 @@ void uniquelist_insert(uniquelist_t* s, int n) {
 /// Print all the numbers in a uniquelist
 void uniquelist_print_all(uniquelist_t* s) {
   element_t* pointer = s->head;
-  // TODO: implement me
+  
   if(pointer!=NULL)
   {
         while(pointer!=NULL)
